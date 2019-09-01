@@ -1,0 +1,7 @@
+.idea/
+venv/
+buildtools/
+server/
+
+*.pyc
+.DS_Store
