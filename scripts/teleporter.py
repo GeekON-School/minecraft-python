@@ -12,7 +12,6 @@ pos_out = Vec3(222, 6, -39)
 while True:
     for player in mc.getPlayerEntityIds():
         pos = mc.entity.getTilePos(player)
-        print(pos)
         if pos_in.x - 1 <= pos.x <= pos_in.x + 1:
             if pos_in.y - 1 <= pos.y <= pos_in.y + 1:
                 if pos_in.z - 1 <= pos.z <= pos_in.z + 1:
