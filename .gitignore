@@ -2,6 +2,7 @@
 venv/
 buildtools/
 server/
+unused/
 
 *.pyc
 .DS_Store
